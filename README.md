@@ -1,11 +1,24 @@
-### Natalie Henderson
+# Natalie Henderson
 
-Deterministic validation systems for requirements fidelity, operating envelopes, and decision provenance.
+Engineering-focused student building and validating deterministic systems
+for traceability and post-hoc reasoning under real operational constraints.
 
-**Active development**
-- Hiring Requirements Evaluator — deterministic evaluation of hiring criteria vs structured candidate attributes
+## Current Work
+- **Deterministic Event Ordering Engine**  
+  Small, correctness-critical system demonstrating explicit ordering rules,
+  bounded assumptions, and reproducible outputs.
 
-**Planned engines (design-defined, implementation pending)**
-- Requirements Drift & Compliance Engine — spec vs observed divergence with traceable diffs
-- Failure Envelope & Assumption Collapse Engine — validity boundaries and assumption violations
-- Decision Provenance Engine — capture and reconstruct decision rationale over time
+- **Threshold / Noise / Debounce Analysis**  
+  Reproducible EE analysis of threshold-based decision logic under noise,
+  sampling jitter, and debounce constraints.
+
+- **CubeSat Mission State Reconstruction Engine** *(flagship, in progress)*  
+  Batch analysis system for reconstructing mission timelines, effective
+  configuration state, and decision context during post-anomaly review.
+
+## Engineering Principles
+- explicit assumptions
+- bounded scope
+- determinism and reproducibility
+- failure-aware design
+- auditability over feature breadth
